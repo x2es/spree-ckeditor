@@ -1,0 +1,12 @@
+= Fork Goals
+
+Forked for update CKEditor up to version 3.3 and customize for own usage.
+
+= Installation
+
+  $ script/extension install git://github.com/x2es/spree-ckeditor.git
+
+= CKEditor
+
+Add WYSIWYG editing to admin textareas.
+For full more information on CKEditor including full configuration options, see http://docs.cksource.com/
