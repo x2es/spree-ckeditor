@@ -19,7 +19,4 @@ CKEDITOR.editorConfig = function( config )
 
   config.toolbar = 'custom';
 
-//  config.stylesCombo_stylesSet = 'custom_styles';
-//  config.format_tags = 'h2;h3;h4;p';
-
 };
