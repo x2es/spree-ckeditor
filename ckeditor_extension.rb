@@ -3,8 +3,8 @@
 
 class CkeditorExtension < Spree::Extension
   version "1.0"
-  description "Describe your extension here"
-  url "http://yourwebsite.com/ckeditor"
+  description "Add WYSIWYG editing to admin textareas."
+  url "http://github.com/x2es/spree-ckeditor"
 
   # Please use ckeditor/config/routes.rb instead for extension routes.
 
