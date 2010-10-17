@@ -6,6 +6,24 @@ Forked for update CKEditor up to version 3.3 and customize for own usage.
 
   $ script/extension install git://github.com/x2es/spree-ckeditor.git
 
+== Install as submodule
+
+Instead script/extension install run:
+
+ $ git submodule add git://github.com/x2es/spree-ckeditor.git vendor/extensions/ckeditor
+ 
+=== Basic submodule usage
+
+After cloning your project whcin contains submodules you should to run:
+
+ $ git submodule init
+ $ git submodule update
+
+For update extension:
+
+ $ cd vendor/extensions/ckeditor
+ $ git pull
+
 = CKEditor
 
 Add WYSIWYG editing to admin textareas.
